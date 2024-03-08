@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    minHeight: {
+      '128': '0.0625rem',
+    },
     screens:{
       sm:"480px",
       md:"768px",

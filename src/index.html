@@ -8,9 +8,78 @@
 <body>
   <!-- login page  -->
   <div class="flex max-w-96 min-w-71 p-9 flex-col justify-center items-center gap-4 shrink-0">
-    <div class="" id="form-upper-part">
-      <div class="flex w-" id="login-form-title">Login</div>
+
+    <!-- upper login text started -->
+    <div class="flex justify-center gap-2 self-center" id="form-upper-part">
+      <div class="flex font-sans text-xl not-italic font-bold" id="login-form-title">Login</div>
     </div>
+    <!-- upper login text part end -->
+
+    <!-- lower login form start -->
+    <div class="" id="login-form-container">
+      <!-- login through social media -->
+      <div class="flex items-start gap-1" id="social-media-container">
+        <!-- google icon -->
+        <div class="flex w-24 h-11 py-2 px-5 justify-center items-center gap-1 rounded bg-neutral-100">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+              <path d="M16.2811 9.15103C16.2811 8.62436 16.2344 8.12436 16.1544 7.6377H8.62109V10.6444H12.9344C12.7411 11.631 12.1744 12.4644 11.3344 13.031V15.031H13.9078C15.4144 13.6377 16.2811 11.5844 16.2811 9.15103Z" fill="#4285F4"/>
+              <path d="M8.62047 16.9704C10.7805 16.9704 12.5871 16.2504 13.9071 15.0304L11.3338 13.0304C10.6138 13.5104 9.70047 13.8037 8.62047 13.8037C6.5338 13.8037 4.76714 12.3971 4.1338 10.4971H1.48047V12.5571C2.7938 15.1704 5.4938 16.9704 8.62047 16.9704Z" fill="#20C997"/>
+              <path d="M4.13443 10.4971C3.96776 10.0171 3.88109 9.50379 3.88109 8.97045C3.88109 8.43712 3.97443 7.92379 4.13443 7.44379V5.38379H1.48109C0.934426 6.46379 0.621094 7.67712 0.621094 8.97045C0.621094 10.2638 0.934426 11.4771 1.48109 12.5571L4.13443 10.4971Z" fill="#FFC107"/>
+              <path d="M8.62047 4.13737C9.80047 4.13737 10.8538 4.54404 11.6871 5.33737L13.9671 3.05737C12.5871 1.76404 10.7805 0.970703 8.62047 0.970703C5.4938 0.970703 2.7938 2.7707 1.48047 5.38404L4.1338 7.44404C4.76714 5.54404 6.5338 4.13737 8.62047 4.13737Z" fill="#E35D6A"/>
+            </svg>
+          </span>
+          <span>
+            Google
+          </span>
+        </div>
+        <!-- facebook icon -->
+        <div class="flex w-24 h-11 py-2 px-5 justify-center items-center gap-1 rounded bg-neutral-100">
+          <span>          
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <g clip-path="url(#clip0_7545_8147)">
+              <path d="M16.4492 8.9707C16.4492 4.55245 12.8675 0.970703 8.44922 0.970703C4.03097 0.970703 0.449219 4.55239 0.449219 8.9707C0.449219 12.9637 3.37472 16.2734 7.19922 16.8735V11.2832H5.16797V8.9707H7.19922V7.2082C7.19922 5.2032 8.39359 4.0957 10.2209 4.0957C11.0962 4.0957 12.0117 4.25195 12.0117 4.25195V6.2207H11.003C10.0091 6.2207 9.69922 6.83739 9.69922 7.47008V8.9707H11.918L11.5633 11.2832H9.69922V16.8735C13.5237 16.2734 16.4492 12.9638 16.4492 8.9707Z" fill="#1877F2"/>
+              <path d="M11.5633 11.2832L11.918 8.9707H9.69922V7.47008C9.69922 6.83733 10.0092 6.2207 11.003 6.2207H12.0117V4.25195C12.0117 4.25195 11.0962 4.0957 10.2209 4.0957C8.39359 4.0957 7.19922 5.2032 7.19922 7.2082V8.9707H5.16797V11.2832H7.19922V16.8735C7.61273 16.9383 8.03066 16.9708 8.44922 16.9707C8.86778 16.9708 9.28571 16.9383 9.69922 16.8735V11.2832H11.5633Z" fill="white"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_7545_8147">
+                <rect width="16" height="16" fill="white" transform="translate(0.449219 0.970703)"/>
+              </clipPath>
+            </defs>
+            </svg>
+          </span>
+          <span>Facebook</span>
+        </div>
+
+        <!-- login with apple -->
+        <div class="flex w-24 h-11 py-2 px-5 justify-center items-center gap-1 rounded bg-neutral-100">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+              <g clip-path="url(#clip0_7545_8162)">
+                <path d="M13.4314 9.47096C13.4539 11.8923 15.5555 12.6981 15.5788 12.7084C15.561 12.7652 15.243 13.8566 14.4716 14.984C13.8047 15.9587 13.1125 16.9298 12.0222 16.9499C10.951 16.9696 10.6064 16.3146 9.38159 16.3146C8.15711 16.3146 7.77436 16.9298 6.76021 16.9696C5.70779 17.0095 4.90637 15.9157 4.234 14.9446C2.85996 12.9581 1.80993 9.33132 3.21985 6.88318C3.92026 5.6674 5.17202 4.89758 6.53059 4.87783C7.56403 4.85814 8.5395 5.5731 9.17126 5.5731C9.80261 5.5731 10.988 4.7133 12.2342 4.83956C12.7558 4.86129 14.2202 5.05025 15.1605 6.42664C15.0847 6.47361 13.4132 7.44669 13.4314 9.47101M11.418 3.52536C11.9768 2.84903 12.3528 1.90755 12.2502 0.970703C11.4448 1.00307 10.471 1.5074 9.89324 2.18332C9.37553 2.78195 8.92215 3.74002 9.04449 4.65829C9.9422 4.72775 10.8592 4.20211 11.418 3.52536" fill="#495057"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_7545_8162">
+                  <rect width="16" height="16" fill="white" transform="translate(0.949219 0.970703)"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+          <span>Apple</span>
+        </div>
+      </div>
+
+      <!-- divider between login with and login form -->
+      <div class="flex items-center gap-2 self-stretch" id="divider-container">
+        <span class="min-h-128 flex-1 bg-colorNeutral200 w-full"></span>
+        <span class="">Or Continue with</span>
+        <span class="min-h-128 flex-1 bg-colorNeutral200 w-full"></span>
+      </div>
+    </div>
+
+
+
+
   </div>
 </body>
 </html>
